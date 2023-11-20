@@ -42,7 +42,7 @@ public class MoveObjectController : MonoBehaviour
         anim.enabled = false; //disable animation states by default.  
 
         //the layer used to mask raycast for interactable objects only
-        LayerMask iRayLM = LayerMask.NameToLayer("InteractRaycast");
+        LayerMask iRayLM = LayerMask.NameToLayer("Interact");
         rayLayerMask = 1 << iRayLM.value;
 
         //setup GUI style settings for user prompts
@@ -98,21 +98,21 @@ public class MoveObjectController : MonoBehaviour
 
                     if (Input.GetKeyUp(KeyCode.E))
                     {
-                        if (moveableObject.isLocked)
-                        {
-                            if (hit.collider.gameObject.CompareTag("Lock1"))
-                            {
-                                if (player.GetComponent<Inventory>().GetItemInHand() == "Key1")
-                                {
-                                    moveableObject.isLocked = false;
-                                }
-                                else
-                                {
-                                    return;
-                                }
-                            }
-                            msg = "Locked. Have key in hand to open.";
-                        }
+                        if (moveableObject.isLocked) return;
+                        // {
+                            // if (hit.collider.gameObject.CompareTag("Lock1"))
+                            // {
+                            //     if (player.GetComponent<Inventory>().GetItemInHand() == "Key1")
+                            //     {
+                            //         moveableObject.isLocked = false;
+                            //     }
+                            //     else
+                            //     {
+                            //         return;
+                            //     }
+                            // }
+                            // msg = "Locked. Have key in hand to open.";
+                        // }
                         anim.enabled = true;
                         anim.SetBool(animBoolNameNum, !isOpen);
                         msg = getGuiMsg(!isOpen);

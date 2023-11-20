@@ -1,0 +1,96 @@
+{
+  "scene": "Demo",
+  "levelName": "Demo",
+  "levelNameKey": null,
+  "dateTime": "2023-11-19 04:53:59",
+  "playerData": {
+    "playerPosition": {
+      "x": 3.872615,
+      "y": -8.920001,
+      "z": 1.62678552,
+      "normalized": {
+        "x": 0.392779529,
+        "y": -0.904710054,
+        "z": 0.164996535,
+        "normalized": {
+          "x": 0.392779559,
+          "y": -0.9047101,
+          "z": 0.164996549,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 9.859513,
+      "sqrMagnitude": 97.21
+    },
+    "cameraRotation": {
+      "x": -165.799942,
+      "y": -12.2000065,
+      "normalized": {
+        "x": -0.9973038,
+        "y": -0.0733843,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 166.248184,
+      "sqrMagnitude": 27638.46
+    },
+    "characterState": 0,
+    "playerHealth": 100.0
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": -1,
+    "switcherWeaponItem": -1,
+    "switcher_item_flashlight": {
+      "FlashlightItem": {
+        "batteryPercentage": 100.0
+      }
+    },
+    "switcher_item_lantern": {
+      "LanternItem": {
+        "lightPercentage": 100.0,
+        "lightIntensity": 1.0,
+        "flameAlpha": 0.0
+      }
+    },
+    "switcher_item_candle": {
+      "CandleItem": {
+        "candleScale": 0.00113
+      }
+    },
+    "switcher_item_pistol": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    },
+    "switcher_item_shotgun": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 10,
+    "slotsData": {
+      "inv_slot_0": "null",
+      "inv_slot_1": "null",
+      "inv_slot_2": "null",
+      "inv_slot_3": "null",
+      "inv_slot_4": "null",
+      "inv_slot_5": "null",
+      "inv_slot_6": "null",
+      "inv_slot_7": "null",
+      "inv_slot_8": "null",
+      "inv_slot_9": "null"
+    }
+  },
+  "objectivesData": {
+    "activeObjectives": {},
+    "touchedObjectives": {}
+  },
+  "saveablesData": {}
+}

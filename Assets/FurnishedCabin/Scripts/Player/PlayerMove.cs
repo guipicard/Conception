@@ -16,7 +16,7 @@ public class PlayerMove : MonoBehaviour
     
     private Ray m_MouseRay;
     private RaycastHit m_MouseHit;
-    private Inventory m_Inventory;
+    // private Inventory m_Inventory;
     private int m_MouseMask;
 
 
@@ -24,7 +24,7 @@ public class PlayerMove : MonoBehaviour
     {
         charController = GetComponent<CharacterController>();
         m_MouseRay = new Ray();
-        m_Inventory = GetComponent<Inventory>();
+        // m_Inventory = GetComponent<Inventory>();
         LayerMask mask = LayerMask.NameToLayer("item");
         m_MouseMask = 1 << mask.value;
     }
@@ -46,13 +46,13 @@ public class PlayerMove : MonoBehaviour
             {
                 if (item.CompareTag("Key1"))
                 {
-                    m_Inventory.AddToInventory(0);
+                    // m_Inventory.AddToInventory(0);
                     item.SetActive(false);
                 }
 
                 if (item.CompareTag("Key2"))
                 {
-                    m_Inventory.AddToInventory(1);
+                    // m_Inventory.AddToInventory(1);
                     item.SetActive(false);
                 }
             }

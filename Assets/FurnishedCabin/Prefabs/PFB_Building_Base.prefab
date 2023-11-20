@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 2
+  isLocked: 0
 --- !u!1 &1000010115221384
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 3
+  isLocked: 0
 --- !u!1 &1000010159534946
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 2
+  isLocked: 0
 --- !u!1 &1000010266034898
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 8
+  isLocked: 0
 --- !u!1 &1000010348762210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 6
+  isLocked: 0
 --- !u!1 &1000010379363678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 3
+  isLocked: 0
 --- !u!1 &1000010788001824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,6 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 1
+  isLocked: 0
 --- !u!1 &1000010942863666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,6 +2024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 1
+  isLocked: 0
 --- !u!1 &1000011053122722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,6 +2210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 1
+  isLocked: 0
 --- !u!114 &114000012751682006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2751,6 +2760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 1
+  isLocked: 0
 --- !u!114 &114000010184101186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3126,6 +3136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 1
+  isLocked: 0
 --- !u!1 &1000011688432020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3193,6 +3204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 4
+  isLocked: 0
 --- !u!1 &1000011786419126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +3325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 7
+  isLocked: 0
 --- !u!1 &1000011832338026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,6 +3636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 4
+  isLocked: 0
 --- !u!1 &1000012024890870
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,6 +3704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 5
+  isLocked: 0
 --- !u!1 &1000012077316262
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,6 +4192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 9
+  isLocked: 0
 --- !u!1 &1000012738118390
 GameObject:
   m_ObjectHideFlags: 0
@@ -5268,6 +5284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectNumber: 5
+  isLocked: 0
 --- !u!1 &1000013814538730
 GameObject:
   m_ObjectHideFlags: 0
